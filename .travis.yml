@@ -6,6 +6,5 @@ jdk:
 
 sudo: false
 
-script:
--mvn test
+script: mvn test
 
