@@ -6,5 +6,5 @@ jdk:
 
 sudo: false
 
-script: mvn test
+script: "mvn cobertura:cobertura"
 
