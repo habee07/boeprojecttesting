@@ -164,7 +164,7 @@ class MysqlCon{
             cs = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
             rs = cs.executeQuery("select * from Notes where `Student_No.` = '"+stNum+"'");
 
-            
+
 
             while (rs.next()){
                 latestNote = rs.getString(4);
