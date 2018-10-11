@@ -21,7 +21,7 @@ public class NoteInfoTest {
     @Test
     public void testGetNote() throws Exception {
 
-        assertEquals(TestNote.getNote(),"pass student"); //test must fail
+        assertEquals(TestNote.getNote(),"fail student"); //test must fail
 
     }
 
